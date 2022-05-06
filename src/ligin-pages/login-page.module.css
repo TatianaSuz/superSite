@@ -1,0 +1,59 @@
+body {
+
+}
+.login-form {
+    max-width: 230px;
+    height: 200px;
+    padding: 35px 35px 35px 35px;
+    background-color: #b9a6e0;
+    border-radius: 10px;
+    display: flex;
+    text-align: center;
+    margin: auto;
+}
+.form {
+    margin: auto;
+}
+
+.password-label {
+    height: 65px;
+    margin-top: 100px;
+}
+.input-container {
+    position: relative;
+}
+input {
+    border-radius: 5px;
+    border: 1px solid #ae93dc;
+    padding: 8px;
+    background-color: #e2ddf2;
+    width: 190px;
+    margin-top: 8px;
+}
+
+input:focus {
+    background-color: #ede9f2;
+    outline: none;
+    position: center;
+}
+
+.password-control {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    display: inline-flex;
+    width: 20px;
+    height: 20px;
+    background: url(https://snipp.ru/demo/495/view.svg) 0 0 no-repeat;
+}
+.password-control.view {
+    background: url(https://snipp.ru/demo/495/no-view.svg) 0 0 no-repeat;
+}
+
+.login-btn {
+    width: 100px;
+    margin-top: 0;
+}
+.login-btn:hover {
+    background-color: #ede9f2;
+}
